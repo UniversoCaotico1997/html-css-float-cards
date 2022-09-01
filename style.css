@@ -16,6 +16,7 @@
 img{
     max-width: 100%;
     width: 24%; 
+    float: left;
  }
 
 /* Start page with cards */
@@ -62,4 +63,5 @@ header > h1{
  
  footer > p{
     text-align: center;
+    margin-top: 2rem;
  }
