@@ -1,3 +1,4 @@
+/* Utility */
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +13,48 @@
     display: table;
     clear: both;
 }
+img{
+    max-width: 100%;
+    width: 24%; 
+ }
 
 /* Start page with cards */
  
 header > h1{
-    color: red;
+    color: #C71585;
     text-align: center;  
     margin: 2rem 2rem;
+    font-family: 'Fredoka One', cursive;
 }
 #center{
      text-align: center;
+ }
+
+ /* Central page with cards */
+
+ .col_1{
+    width: calc(100% / 3);
+    margin-top: 2rem;
+    float: left;
+ }
+ 
+ .info_card{
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 10px;
+ }
+
+ a:link{
+    color: #87CEFA;
+    font-size: small;
+    text-decoration: none;
+ }
+
+ div > h3{
+    font-family: 'Fredoka One', cursive;
+    font-size: large;
+}  
+ h3 + p{
+    font-size: small;
  }
