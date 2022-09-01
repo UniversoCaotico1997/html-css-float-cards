@@ -58,3 +58,8 @@ header > h1{
  h3 + p{
     font-size: small;
  }
+ /* End page with cards */
+ 
+ footer > p{
+    text-align: center;
+ }
